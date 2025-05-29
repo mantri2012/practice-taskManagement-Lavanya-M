@@ -1,0 +1,72 @@
+
+.app {
+  max-width: 500px;          
+  margin: 0 auto;             
+  padding: 20px;              
+  font-family: Arial, sans-serif;  
+  background-color: #c58989;  
+}
+
+
+h1 {
+  text-align: center;                                                                                                     
+  color: #333;                /* Dark grey text color */
+  margin-bottom: 30px;        /* Adds space below the title */
+}
+
+h2 {
+  color: #aecc77;             /* A deeper blue-grey tone for subheadings */
+  margin-bottom: 15px;        /* Space below h2 titles */
+}
+
+h3 {
+  margin: 0;                  /* Removes default margin from h3 */
+  color: #1a73e8;             /* Bright blue for clickable task titles */
+}
+
+.task-item {
+  background-color: #ffffff;  /* White background for each task card */
+  border: 1px solid #ddd;     /* Light grey border */
+  border-radius: 8px;         /* Rounded corners */
+  padding: 10px;              /* Internal spacing */
+  margin-bottom: 10px;        /* Space between tasks */
+  transition: box-shadow 0.3s ease;  /* Smooth hover effect */
+}
+
+
+/*Task Detail Styles*/
+.task-detail {
+  background-color: #ffffff;  /* White background like task list */
+  border: 1px solid #ccc;     /* Slightly darker border for detail */
+  padding: 20px;              /* Internal spacing */
+  border-radius: 8px;         /* Rounded corners */
+  margin-top: 30px;           /* Space above the detail card */
+}
+
+/*Error Message*/
+.error {
+  color: #d32f2f;             /* Red for visibility */
+  font-weight: bold;          /* Bold text */
+  padding: 10px;              /* Padding for breathing space */
+  background-color: #ffe5e5;  /* Light red background */
+  border: 1px solid #ffcccc;  /* Red border */
+  border-radius: 5px;         /* Rounded corners */
+  margin-top: 20px;           /* Space above the error */
+}
+
+/*anchor tags*/
+a{
+  text-decoration: none;      /* Removes underline from links */
+  color: inherit;             /* Keeps the same color as h3 */
+  cursor: pointer;            /* Pointer cursor on hover */
+}
+
+/*Paragraph / Description Styles*/
+p {
+  font-family: Arial, sans-serif;  /* Make sure description uses the same clean font */
+  color: #555;                     /* Medium grey color for better readability */
+  font-size: 16px;                 /* Comfortable size for reading */
+  line-height: 1.5;                /* Adds space between lines */
+  margin-top: 8px;                 /* Small space above paragraph */
+  margin-bottom: 0;                /* No extra space below */
+}
