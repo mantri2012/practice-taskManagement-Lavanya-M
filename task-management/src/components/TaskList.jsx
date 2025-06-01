@@ -1,21 +1,21 @@
-import React from 'react';
-import tasks from '../tasks';
-import '../App.css';
+import { Link } from 'react-router-dom';
+import globalTaskData from './globalTaskData';
 
-const TaskList = () => {
-  return (
-    <div>
-      <h2>Task List</h2>
-      {tasks.map((task) => (
-        <div key={task.id} className="task-item">
-          <a href={`/task/${task.id}`}>
-            <h3>{task.title}</h3>
-          </a>
-       
-        </div>
-      ))}
-    </div>
-  );
+const TaskList = function() {
+    return (
+      <div className='page-layout'>
+
+        <h1>Tasks:</h1>
+
+        <ul>
+          {globalTaskData.map(task => (
+            <li key={task.id}>
+                <Link to={`/task/${task.id}`}>{task.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
 };
 
 export default TaskList;

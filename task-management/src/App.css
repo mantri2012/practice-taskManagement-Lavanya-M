@@ -1,72 +1,65 @@
-
-.app {
-  max-width: 500px;          
-  margin: 0 auto;             
-  padding: 20px;              
-  font-family: Arial, sans-serif;  
-  background-color: #c58989;  
+button {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
+ul {
+  list-style-type: none; /* removes default bullets */
+  padding: 0;
+  margin: 0;
+  border: 0.8px solid;
+  padding: 10px;
+}
+
+li {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+.page-layout {
+  width: 500px;
+  margin: auto;
+  font-size: 30px;
+}
 
 h1 {
-  text-align: center;                                                                                                     
-  color: #333;                /* Dark grey text color */
-  margin-bottom: 30px;        /* Adds space below the title */
+  text-align: center;
 }
 
-h2 {
-  color: #aecc77;             /* A deeper blue-grey tone for subheadings */
-  margin-bottom: 15px;        /* Space below h2 titles */
-}
-
-h3 {
-  margin: 0;                  /* Removes default margin from h3 */
-  color: #1a73e8;             /* Bright blue for clickable task titles */
-}
-
-.task-item {
-  background-color: #ffffff;  /* White background for each task card */
-  border: 1px solid #ddd;     /* Light grey border */
-  border-radius: 8px;         /* Rounded corners */
-  padding: 10px;              /* Internal spacing */
-  margin-bottom: 10px;        /* Space between tasks */
-  transition: box-shadow 0.3s ease;  /* Smooth hover effect */
-}
-
-
-/*Task Detail Styles*/
-.task-detail {
-  background-color: #ffffff;  /* White background like task list */
-  border: 1px solid #ccc;     /* Slightly darker border for detail */
-  padding: 20px;              /* Internal spacing */
-  border-radius: 8px;         /* Rounded corners */
-  margin-top: 30px;           /* Space above the detail card */
-}
-
-/*Error Message*/
-.error {
-  color: #d32f2f;             /* Red for visibility */
-  font-weight: bold;          /* Bold text */
-  padding: 10px;              /* Padding for breathing space */
-  background-color: #ffe5e5;  /* Light red background */
-  border: 1px solid #ffcccc;  /* Red border */
-  border-radius: 5px;         /* Rounded corners */
-  margin-top: 20px;           /* Space above the error */
-}
-
-/*anchor tags*/
-a{
-  text-decoration: none;      /* Removes underline from links */
-  color: inherit;             /* Keeps the same color as h3 */
-  cursor: pointer;            /* Pointer cursor on hover */
-}
-
-/*Paragraph / Description Styles*/
-p {
-  font-family: Arial, sans-serif;  /* Make sure description uses the same clean font */
-  color: #555;                     /* Medium grey color for better readability */
-  font-size: 16px;                 /* Comfortable size for reading */
-  line-height: 1.5;                /* Adds space between lines */
-  margin-top: 8px;                 /* Small space above paragraph */
-  margin-bottom: 0;                /* No extra space below */
+.detail {
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  border: #1A202C solid;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 30px;
 }
